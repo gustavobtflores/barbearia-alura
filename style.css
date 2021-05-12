@@ -1,100 +1,89 @@
 header{
     background: #8D8D8D;
     padding: 20px 0;
+
 }
-.box-header{
+
+.caixa {
+    position: relative;
     width: 940px;
     margin: 0 auto;
-    position: relative;
 }
+
 nav{
     position: absolute;
     top: 110px;
     right: 0px;
 }
+
 nav li{
     display: inline;
     margin: 0 0 0 15px;
+
 }
+
 nav a{
-    text-decoration: none;
-    color: black;
     text-transform: uppercase;
+    color: #000000;
     font-weight: bold;
     font-size: 22px;
+    text-decoration: none;
 }
+
 nav a:hover{
     color: white;
     text-decoration: underline;
 }
-main{
-    background: #CCCCCC;
-    padding: 30px; 
-}
-.box-main{
-    width: 940px;
+
+.produtos{
+    width:940px;
     margin: 0 auto;
-    border: 5px double #000000;
+    padding: 50px 0;
+    border-spacing: 20px;
 }
-.titulo-principal{
-    padding-left: 20px;
-}
-.titulo-centralizado{
+
+.produtos li{
+    display: table-cell;
     text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-    padding: 20px;
-}
-
-main p{
-    text-align: center;
-    background: #CCCCCC;
-    margin: 20px;
-}
-
-#missao{
-    font-style: italic;
-}
-
-.beneficios{
-    background: #CCCCCC;
-    padding: 20px;
-}
-.caixa{
-    position: relative;
-    width: 940px;
-    height: 380px;
-    margin: auto;
-    border: 5px double #000000;
-}
-.itens{
+    width: 30%;
     vertical-align: top;
-    display: inline-block;
-    width: 50%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 5px double #000000;
+    border-radius: 15px;
 }
 
-.itens li{
-    font-style: italic;
-    list-style-type: disc;
-    list-style-position: inside;
-    margin-left: 185px;
-    
+.produtos li:hover{
+    border-color: #C78C19;
 }
-.imagembeneficios{
-    width: 400px;
-    position:absolute;
-    right: 15px;
-    top: auto;
 
+.produtos li:active{
+    border-color: #088C19;
+}
+.produtos li:hover h2{
+    font-size: 35px;
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.produto.descricao{
+    font-size: 18px;
+}
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
 }
 
 footer{
-    background: url(/img/bg.jpg);
     text-align: center;
+    background: url(/img/bg.jpg);
     padding: 40px;
 }
+
 .copyright{
-    color: white;
+    color: #FFFFFF;
     font-size: 13px;
     margin: 20px 0 0;
 }
