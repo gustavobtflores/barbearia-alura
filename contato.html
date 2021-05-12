@@ -25,13 +25,13 @@
             <input type="text" id="nomesobrenome" class="input-default">
 
             <label for="email">Email</label>
-            <input type="text" id="email" class="input-default">
+            <input type="email" id="email" class="input-default">
 
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone" class="input-default">
+            <input type="tel" id="telefone" class="input-default">
 
             <label for="mensagem">Mensagem</label>
-            <textarea id="mensagem" class="input-default"></textarea>
+            <textarea rows="10" id="mensagem" class="input-default"></textarea>
             
             
             <div>
@@ -46,9 +46,16 @@
                 <label for="radio-whatsapp"><input type="radio" id="radio-whatsapp" value="whatsapp" name="contato">Whatsapp</label>
             </div>
 
-            <label for="novidades" class="checkbox"><input type="checkbox" id="novidades">Gostaria de receber nossas novidades por email?</label>
+            <div>
+                <p>Qual horário gostaria de ser atendido?</p>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </div>
 
-
+            <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
 
             <input type="submit" value="Enviar formulário">
 
