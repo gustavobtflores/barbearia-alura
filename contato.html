@@ -20,7 +20,39 @@
         </div>
     </header>
     <main>
+        <form>
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-default">
 
+            <label for="email">Email</label>
+            <input type="text" id="email" class="input-default">
+
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" class="input-default">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" class="input-default"></textarea>
+            
+            
+            <div>
+                <p>Como prefere receber nosso contato?</p>
+                
+                <label for="radio-email"><input type="radio" id=radio-email value="email" name="contato">Email</label>
+                
+
+                <label for="radio-telefone"><input type="radio" id="radio-telefone" value="telefone" name=contato>Telefone</label>
+                
+
+                <label for="radio-whatsapp"><input type="radio" id="radio-whatsapp" value="whatsapp" name="contato">Whatsapp</label>
+            </div>
+
+            <label for="novidades" class="checkbox"><input type="checkbox" id="novidades">Gostaria de receber nossas novidades por email?</label>
+
+
+
+            <input type="submit" value="Enviar formulário">
+
+        </form>
     </main>
     <footer>
         <img src="/img/logo-branco.png">
