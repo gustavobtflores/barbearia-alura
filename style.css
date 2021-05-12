@@ -1,5 +1,5 @@
 header{
-    background: #CCCCCC;
+    background: #8D8D8D;
     padding: 20px 0;
 }
 .box-header{
@@ -24,7 +24,7 @@ nav a{
     font-size: 22px;
 }
 nav a:hover{
-    color: #C78C19;
+    color: white;
     text-decoration: underline;
 }
 main{
