@@ -1,43 +1,103 @@
-#banner{
-    width: 100%;
-}
-.principal{
+header{
     background: #CCCCCC;
-    padding: 30px;
+    padding: 20px 0;
+}
+.box-header{
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+}
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
+main{
+    background: #CCCCCC;
+    padding: 30px; 
+}
+.box-main{
+    width: 940px;
+    margin: 0 auto;
+    border: 5px double #000000;
 }
 .titulo-principal{
     padding-left: 20px;
 }
 .titulo-centralizado{
     text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
 }
 
-p {
+main p{
     text-align: center;
     background: #CCCCCC;
+    margin: 20px;
 }
 
 #missao{
-    font-size: 20px;
-}
-
-em strong {
-    color: #ff0000;
-}
-
-.itens{
     font-style: italic;
 }
 
 .beneficios{
-    background: #FFFFFF;
+    background: #CCCCCC;
+    padding: 20px;
 }
-ul{
-    display: inline-block;
+.caixa{
+    position: relative;
+    width: 940px;
+    height: 380px;
+    margin: auto;
+    border: 5px double #000000;
+}
+.caixa img{
+
+}
+.itens{
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    display: inline-block;
+    width: 50%;
+}
+
+.itens li{
+    font-style: italic;
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-left: 185px;
+    
 }
 .imagembeneficios{
-    width: 50%;
+    width: 400px;
+    position:absolute;
+    right: 15px;
+    top: auto;
+
+}
+
+footer{
+    background: url(/img/bg.jpg);
+    text-align: center;
+    padding: 40px;
+}
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
