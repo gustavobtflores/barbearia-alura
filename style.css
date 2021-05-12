@@ -67,9 +67,6 @@ main p{
     margin: auto;
     border: 5px double #000000;
 }
-.caixa img{
-
-}
 .itens{
     vertical-align: top;
     display: inline-block;
