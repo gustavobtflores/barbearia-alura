@@ -57,16 +57,6 @@ nav a:hover{
     border-radius: 15px;
 }
 
-.produtos li:hover{
-    border-color: #C78C19;
-}
-
-.produtos li:active{
-    border-color: #088C19;
-}
-.produtos li:hover h2{
-    font-size: 35px;
-}
 .produtos h2{
     font-size: 30px;
     font-weight: bold;
@@ -275,5 +265,32 @@ width: 100%;
 
     .video{
         margin: 2em 1em;
+    }
+
+    .produtos li{
+        display: block;
+        width: 75%;
+        margin: 1em auto;
+    }
+
+    .input-default{
+        width: 80%;
+    }
+
+    form{
+        margin: 40px 10.5px;
+    }
+
+    .enviar{
+        width: 60%;
+    }
+
+    table{
+        margin: 0 10.5px;
+    }
+
+    select{
+        width: 30%;
+        height: 25px;
     }
 }
