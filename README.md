@@ -2,7 +2,7 @@
 
 
 
-#### Projeto para recriar página da Barbearia Alura utilizando HTML e CSS
+#### Projeto para desenvolver a página "Barbearia Alura" utilizando HTML e CSS
 
 
 
